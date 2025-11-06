@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+</head>
+<body>
+
+  <center>
+    <form>
+
+      <!-- Personal Details -->
+      <fieldset style="width:40%;">
+        <legend><b>Personal Details</b></legend>
+
+        <label>First Name:</label>
+        <input type="text" name="first_name"><br><br>
+
+        <label>Last Name:</label>
+        <input type="text" name="last_name"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        <label>Language:</label>
+        <input type="checkbox" name="language" value="bangla"> Bangla
+        <input type="checkbox" name="language" value="english"> English<br><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob"><br><br>
+        <lable for="colors">Colors:</lable>
+        <input type="color" id="colors" name="col"><br><br>
+      </fieldset>
+
+      <br>
+
+      <!-- Contact Details -->
+      <fieldset style="width:40%;">
+        <legend><b>Contact Details</b></legend>
+
+        <label>Country:</label>
+        <select name="country">
+          <option value="">-- Select Country --</option>
+          <option>Bangladesh</option>
+          <option>India</option>
+          <option>Pakistan</option>
+          <option>Nepal</option>
+          <option>Sri Lanka</option>
+          <option>China</option>
+          <option>Japan</option>
+          <option>South Korea</option>
+          <option>Malaysia</option>
+          <option>Singapore</option>
+          <option>Thailand</option>
+          <option>Indonesia</option>
+          <option>Philippines</option>
+          <option>Vietnam</option>
+          <option>Myanmar</option>
+          <option>Australia</option>
+          <option>United States</option>
+          <option>United Kingdom</option>
+          <option>Canada</option>
+          <option>Germany</option>
+          <option>France</option>
+          <option>Italy</option>
+          <option>Spain</option>
+          <option>Brazil</option>
+          <option>South Africa</option>
+        </select><br><br>
+
+        <label>State:</label>
+        <input type="text" name="state"><br><br>
+
+        <label>Address:</label>
+        <input type="text" name="address"><br><br>
+      </fieldset>
+
+      <br>
+
+      <!-- Contact Details (Digital) -->
+      <fieldset style="width:40%;">
+        <legend><b>Contact Details (Digital)</b></legend>
+
+        <label>Email:</label>
+        <input type="email" name="email"><br><br>
+
+        <label>Phone:</label>
+        <input type="text" value="+880" readonly>
+        <input type="tel" name="phone" placeholder="Enter number"><br><br>
+      </fieldset>
+
+      <br>
+
+      <!-- Bio -->
+      <fieldset style="width:40%;">
+        <legend><b>Bio</b></legend>
+
+        <label>Write something about yourself:</label><br>
+        <textarea name="bio" rows="5" cols="50">Please write here....</textarea><br><br>
+      </fieldset>
+
+      <br>
+
+      <input type="submit" value="Register">
+
+    </form>
+  </center>
+
+</body>
+</html>
